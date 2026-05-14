@@ -1,88 +1,131 @@
-<h1 align="center">Hi there 👋, I'm Saurav Kumar</h1>
-<h3 align="center">🚀 Developer | 🌐 Tech Enthusiast | 📚 Lifelong Learner</h3>
-
-<p align="center">
-  <img src="https://github.com/SauravKumar9447/SauravKumar9447/assets/animated-banner.gif" alt="Banner" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&center=true&width=435&lines=Welcome+to+my+GitHub!;Crafting+Code+with+Creativity.;Exploring+Tech+with+Purpose.🚀" alt="Typing SVG" />
-</p>
-
----
-
-## 🔭 Featured Projects
-| 🧠 Project | 💡 Description |
-|-----------|----------------|
-| [**SecureRights.app**](#) | AI-powered platform to detect unauthorized use of copyrighted Disney content using YOLO, Firebase, YouTube API, and Gemini. |
-| [**Blockchain-Based Certificate System**](#) | Issues tamper-proof digital certificates as NFTs using Solidity, IPFS, and Helia, verifiable on the Ethereum blockchain. |
-| [**FarmFlo**](#) | Full-stack marketplace platform connecting farmers directly to buyers by eliminating middlemen, built with React.js and MongoDB. |
-| [**Dynamic Portfolio Website**](#) | A customizable personal website generator that showcases skills, certifications, and live projects from JSON. |
-| [**Library Management System**](#) | Secure and cross-platform desktop/web application to manage educational materials and lending records. |
-| [**Browser Extension for Product Detection**](#) | Chrome extension that identifies and provides information about products shown in online videos using computer vision. |
-
----
-
-## 🌱 Currently Leveling Up In
-- 🔹 **Internet of Things (IoT)**
-- 🔹 **Agile Methodologies & Project Management**
-- 🔹 **Advanced Software Engineering Principles**
-
----
-
-## 🛠 Tech Stack & Tools
 <div align="center">
-  
-| Languages | Frontend | Backend | Database | DevOps | Cloud |
-|----------|----------|---------|----------|--------|-------|
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" /> C++ | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" /> React | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" /> Node.js | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" /> MySQL | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" /> Docker | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="30" /> AWS |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" /> Python | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" /> HTML | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" height="30" /> GraphQL | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" /> Firebase | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="30" /> Kubernetes | |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" /> JavaScript | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" /> CSS | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" /> TypeScript |  | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" /> Git | |
+
+# Saurav Kumar
+### Full-Stack Developer · AI/ML Enthusiast · Recent Graduate
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Building+intelligent+full-stack+systems;AI+%7C+Blockchain+%7C+IoT+%7C+Computer+Vision;Open+to+full-time+SWE+opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurav-kumar-tech)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sauravkumar9447@gmail.com)
+[![Twitter](https://img.shields.io/badge/X%2FTwitter-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/sauravkcode)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/saurav7557)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=firefox&logoColor=white)](#)
 
 </div>
 
 ---
 
-## 🤝 Let's Collaborate On
-- ✅ **Secure Digital Content Management Systems**
-- ✅ **AI-based Open-Source Tools**
-- ✅ **Creative IoT Applications**
+## 👨‍💻 About Me
+
+I'm a **recently graduated Full-Stack Developer** passionate about building systems at the intersection of AI, blockchain, and real-world problem solving. I enjoy working across the entire stack — from crafting responsive UIs to architecting scalable backends and integrating machine learning pipelines.
+
+- 🎓 &nbsp;B.Tech — Computer Science & Engineering *(2024 Graduate)*
+- 🔭 &nbsp;Currently building: **AI-powered content protection tools** and **blockchain-based credentialing systems**
+- 🌱 &nbsp;Learning: **IoT systems**, **Agile methodologies**, and **Advanced Software Engineering**
+- 💼 &nbsp;Open to: **Full-time SWE / Full-Stack / AI roles**
+- 📍 &nbsp;Based in India
 
 ---
 
-## 🚀 I'm Looking For Help With
-- 🔍 **Cross-platform app optimization**
-- 🤖 **Integrating advanced AI for real-time solutions**
+## 🚀 Featured Projects
+
+> Projects that reflect real-world impact, technical depth, and end-to-end ownership.
+
+| Project | Tech Stack | Highlights |
+|---------|-----------|------------|
+| [**SecureRights.app**](#) | Python · YOLO · Firebase · YouTube API · Gemini AI | AI platform detecting unauthorized Disney content; automated copyright enforcement using computer vision |
+| [**Blockchain Certificate System**](#) | Solidity · IPFS · Helia · Ethereum · React | Tamper-proof NFT-based digital certificates, verifiable on-chain; eliminates credential fraud |
+| [**FarmFlo**](#) | React.js · Node.js · MongoDB · Express | Full-stack agri-marketplace connecting 1000s of farmers directly to buyers; zero middlemen |
+| [**AR FloorPlan Detection**](https://github.com/saurav7557/AR-FloorPlan-Detection) | MATLAB · Computer Vision · 3D Visualization | Real-time floor plan detection and 3D spatial rendering from 2D blueprints |
+| [**DALL·E Image Generator**](https://github.com/saurav7557/Dalle-E-Image-Generator) | JavaScript · OpenAI API | Web app leveraging DALL·E for AI-generated imagery with a clean UI |
+| [**Browser Extension — Product Detection**](#) | JavaScript · Computer Vision · Chrome APIs | Chrome extension that identifies products in online videos using CV and returns real-time product info |
+| [**Dynamic Portfolio Generator**](#) | React.js · JSON · CSS | JSON-driven personal portfolio generator; no-code customization for devs |
+| [**Library Management System**](#) | Cross-platform · Secure Auth | Desktop + web app for managing academic resources and lending records |
 
 ---
 
-## 💬 Ask Me About
-- 💡 **Project Management in Tech**
-- 💡 **Front-end to Full-stack Development**
-- 💡 **UI/UX and Engaging User Experiences**
+## 🛠️ Tech Stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+**Backend & APIs**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-FF6B6B?style=flat-square&logo=api&logoColor=white)
+
+**Databases & Cloud**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+
+**AI / ML / Vision**
+
+![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
+
+**DevOps & Tools**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+
+**Blockchain**
+
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=white)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3dotjs&logoColor=white)
 
 ---
 
-## 📫 Connect With Me
-<p align="center">
-  <a href="mailto:sauravkumar9447@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/saurav-kumar-tech"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://twitter.com/sauravkcode"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-</p>
 
 ---
 
-## ⚡ Fun Fact
-> 🎨 I believe **tech + creativity** can create magical digital experiences that inspire and impact lives.
+## 🏆 Highlights
+
+- 🥇 **Hackindia Spark 4 — 2025** participant with team *Tech No Logic* — built a JavaScript-based solution under competitive constraints
+- 🌐 **GDG Solution Challenge** — contributed a Python-based project addressing a real-world problem
+- 🔗 Delivered an end-to-end **blockchain credentialing system** using NFTs on Ethereum — from smart contract to frontend
+- 🤖 Integrated **Gemini AI + YOLO** in a production-grade copyright enforcement tool
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SauravKumar9447&theme=tokyonight" alt="GitHub Streak" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=SauravKumar9447&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
-</p>
+## 🤝 Open to Collaborate On
+
+- AI-powered tools with real-world impact
+- Blockchain / Web3 open-source projects
+- Full-stack applications in agri-tech, ed-tech, or fintech
+- Creative IoT systems and embedded applications
 
 ---
 
-<p align="center">💻 Let's build something <strong>amazing</strong> together!</p>
+## 📫 Let's Connect
+
+I'm actively looking for **full-time software engineering roles** where I can contribute from day one. Whether it's a startup or a product team — I bring energy, ownership, and clean code.
+
+**Reach me:** [sauravkumar9447@gmail.com](mailto:sauravkumar9447@gmail.com) · [LinkedIn](https://www.linkedin.com/in/saurav-kumar-tech) · [Twitter/X](https://twitter.com/sauravkcode)
+
+<div align="center">
+
+---
+
+*"I build things that work, look good, and actually solve problems."*
+
+</div>
