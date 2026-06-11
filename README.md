@@ -19,7 +19,7 @@
 
 I'm a **recently graduated Full-Stack Developer** passionate about building systems at the intersection of AI, blockchain, and real-world problem solving. I enjoy working across the entire stack — from crafting responsive UIs to architecting scalable backends and integrating machine learning pipelines.
 
-- 🎓 &nbsp;B.Tech — Computer Science & Engineering *(2024 Graduate)*
+- 🎓 &nbsp;B.Tech — Computer Science & Engineering *(2026 Graduate)*
 - 🔭 &nbsp;Currently building: **AI-powered content protection tools** and **blockchain-based credentialing systems**
 - 🌱 &nbsp;Learning: **IoT systems**, **Agile methodologies**, and **Advanced Software Engineering**
 - 💼 &nbsp;Open to: **Full-time SWE / Full-Stack / AI roles**
