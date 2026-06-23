@@ -1,58 +1,99 @@
 <div align="center">
 
 # Saurav Kumar
-### Full-Stack Developer · AI/ML Enthusiast · Recent Graduate
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Building+intelligent+full-stack+systems;AI+%7C+Blockchain+%7C+IoT+%7C+Computer+Vision;Open+to+full-time+SWE+opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
+**Backend & Full-Stack Developer · Java · Spring Boot · React · Blockchain**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurav-kumar-tech)
+B.Tech Computer Science — Rungta College of Engineering & Technology · Graduated June 2026
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurav-kumar-5b03a9391)
 [![Email](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sauravkumar9447@gmail.com)
-[![Twitter](https://img.shields.io/badge/X%2FTwitter-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/sauravkcode)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/saurav7557)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=firefox&logoColor=white)](#)
+[![Twitter](https://img.shields.io/badge/X%2FTwitter-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/sauravkcode)
+
+**Open to full-time SDE / Full-Stack / Backend roles and internships — available immediately.**
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## What I Build
 
-I'm a **recently graduated Full-Stack Developer** passionate about building systems at the intersection of AI, blockchain, and real-world problem solving. I enjoy working across the entire stack — from crafting responsive UIs to architecting scalable backends and integrating machine learning pipelines.
-
-- 🎓 &nbsp;B.Tech — Computer Science & Engineering *(2026 Graduate)*
-- 🔭 &nbsp;Currently building: **AI-powered content protection tools** and **blockchain-based credentialing systems**
-- 🌱 &nbsp;Learning: **IoT systems**, **Agile methodologies**, and **Advanced Software Engineering**
-- 💼 &nbsp;Open to: **Full-time SWE / Full-Stack / AI roles**
-- 📍 &nbsp;Based in India
+I work across the full stack with a focus on backend systems, security, and applied AI. My recent work covers distributed payment architecture, blockchain credentialing, and computer vision pipelines — built end-to-end, deployed, and documented.
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-> Projects that reflect real-world impact, technical depth, and end-to-end ownership.
+### [MeshPay — Offline UPI Settlement Network](https://github.com/saurav7557/MeshPay)
+**Java · Spring Boot · PostgreSQL · AES-256-GCM · RSA-OAEP · Docker · Render**
 
-| Project | Tech Stack | Highlights |
-|---------|-----------|------------|
-| [**SecureRights.app**](#) | Python · YOLO · Firebase · YouTube API · Gemini AI | AI platform detecting unauthorized Disney content; automated copyright enforcement using computer vision |
-| [**Blockchain Certificate System**](#) | Solidity · IPFS · Helia · Ethereum · React | Tamper-proof NFT-based digital certificates, verifiable on-chain; eliminates credential fraud |
-| [**FarmFlo**](#) | React.js · Node.js · MongoDB · Express | Full-stack agri-marketplace connecting 1000s of farmers directly to buyers; zero middlemen |
-| [**AR FloorPlan Detection**](https://github.com/saurav7557/AR-FloorPlan-Detection) | MATLAB · Computer Vision · 3D Visualization | Real-time floor plan detection and 3D spatial rendering from 2D blueprints |
-| [**DALL·E Image Generator**](https://github.com/saurav7557/Dalle-E-Image-Generator) | JavaScript · OpenAI API | Web app leveraging DALL·E for AI-generated imagery with a clean UI |
-| [**Browser Extension — Product Detection**](#) | JavaScript · Computer Vision · Chrome APIs | Chrome extension that identifies products in online videos using CV and returns real-time product info |
-| [**Dynamic Portfolio Generator**](#) | React.js · JSON · CSS | JSON-driven personal portfolio generator; no-code customization for devs |
-| [**Library Management System**](#) | Cross-platform · Secure Auth | Desktop + web app for managing academic resources and lending records |
+UPI payments that survive basements and dead zones. Payment packets are encrypted on the sender's device, hop peer-to-peer through nearby phones that can't read them, and settle the moment any device gets connectivity.
+
+Three concrete things this proves:
+- A payment travels through untrusted intermediaries with zero information leakage — hybrid RSA-OAEP + AES-256-GCM, same scheme as TLS
+- Three bridge nodes deliver the same packet simultaneously — exactly one settles, two are rejected as duplicates — via atomic `ConcurrentHashMap.putIfAbsent` (Redis `SETNX` semantics)
+- Tampered or replayed packets are rejected before touching the ledger — GCM auth tag + `signedAt` freshness check
+
+**Live demo:** https://meshpay-hw8w.onrender.com · **Swagger:** https://meshpay-hw8w.onrender.com/swagger-ui.html
 
 ---
 
-## 🛠️ Tech Stack
+### [Blockchain Certificate System](https://github.com/saurav7557/Blockchain-Certificate-System)
+**Solidity · Ethereum · IPFS · Helia · React**
+
+Tamper-proof digital certificates issued as NFTs on Ethereum and pinned to IPFS via Helia. Verifiable by anyone on-chain — no central authority required. Eliminates credential fraud without a trusted intermediary.
+
+- Smart contract handles issuance, ownership, and revocation
+- IPFS stores certificate metadata; only the content hash lives on-chain
+- React frontend for institution-side issuance and student-side verification
+
+---
+
+### [FarmFlo — Agricultural Marketplace](https://github.com/saurav7557/FarmFlo)
+**React.js · Node.js · Express · MongoDB**
+
+Full-stack marketplace connecting farmers directly to buyers — no middlemen, no commission layer. Built with a REST API backend, JWT auth, and a mobile-responsive React frontend.
+
+---
+
+### [AR FloorPlan Detection](https://github.com/saurav7557/AR-FloorPlan-Detection)
+**MATLAB · Computer Vision · 3D Visualization**
+
+Detects structural elements from 2D architectural blueprints and renders them as navigable 3D spatial models in real time. Built entirely in MATLAB using image processing and projection geometry.
+
+---
+
+### [Dynamic Portfolio Generator](https://github.com/saurav7557/Dynamic-Portfolio)
+**React.js · JSON · CSS**
+
+JSON-driven portfolio generator — swap one config file, get a fully personalized site. No-code customization, clean component architecture, and zero hard-coded content.
+
+---
+
+### [Library Management System](https://github.com/saurav7557/Library-Management-System)
+**Java · Cross-platform · Secure Auth**
+
+Desktop and web application for managing academic resources, lending records, and user roles. Includes auth, fine calculation, and inventory tracking.
+
+---
+
+## Tech Stack
 
 **Languages**
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+
+**Backend**
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 
 **Frontend**
 
@@ -60,19 +101,12 @@ I'm a **recently graduated Full-Stack Developer** passionate about building syst
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-**Backend & APIs**
+**Databases**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6B6B?style=flat-square&logo=api&logoColor=white)
-
-**Databases & Cloud**
-
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
 **AI / ML / Vision**
 
@@ -83,9 +117,9 @@ I'm a **recently graduated Full-Stack Developer** passionate about building syst
 
 **DevOps & Tools**
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
 **Blockchain**
 
@@ -95,37 +129,15 @@ I'm a **recently graduated Full-Stack Developer** passionate about building syst
 
 ---
 
+## Competitions
+
+- **Hackindia Spark 4 · 2025** — Built a JavaScript-based solution under competitive time constraints with team *Tech No Logic*
+- **GDG Solution Challenge** — Delivered a Python project addressing a real-world accessibility problem
 
 ---
 
-## 🏆 Highlights
+## Contact
 
-- 🥇 **Hackindia Spark 4 — 2025** participant with team *Tech No Logic* — built a JavaScript-based solution under competitive constraints
-- 🌐 **GDG Solution Challenge** — contributed a Python-based project addressing a real-world problem
-- 🔗 Delivered an end-to-end **blockchain credentialing system** using NFTs on Ethereum — from smart contract to frontend
-- 🤖 Integrated **Gemini AI + YOLO** in a production-grade copyright enforcement tool
+**sauravkumar9447@gmail.com** · [LinkedIn](https://www.linkedin.com/in/saurav-kumar-5b03a9391) · [Twitter/X](https://twitter.com/sauravkcode)
 
----
-
-## 🤝 Open to Collaborate On
-
-- AI-powered tools with real-world impact
-- Blockchain / Web3 open-source projects
-- Full-stack applications in agri-tech, ed-tech, or fintech
-- Creative IoT systems and embedded applications
-
----
-
-## 📫 Let's Connect
-
-I'm actively looking for **full-time software engineering roles** where I can contribute from day one. Whether it's a startup or a product team — I bring energy, ownership, and clean code.
-
-**Reach me:** [sauravkumar9447@gmail.com](mailto:sauravkumar9447@gmail.com) · [LinkedIn](https://www.linkedin.com/in/saurav-kumar-tech) · [Twitter/X](https://twitter.com/sauravkcode)
-
-<div align="center">
-
----
-
-*"I build things that work, look good, and actually solve problems."*
-
-</div>
+Available immediately for full-time SDE, full-stack, backend roles, and internships.
